@@ -3,6 +3,7 @@
 
 # Ignore log files
 *.log
+*.exe
 
 # Ignore node modules folder
 node_modules/
