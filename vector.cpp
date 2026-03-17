@@ -4,10 +4,13 @@
 using namespace std;
 int main(){
 
+    //declaration of empty vector
     vector<int> marks;
-
+    
+    //declaration of empty vector with defined size
     vector<int > miles(10);
-
+    
+    //declaration of empty vector with defined size and all initialized with 0
     vector<int> distance(15,0);
 
     int arr[] = {10,20,30,40,50,60};
@@ -34,10 +37,19 @@ while(it != marks.end()){
     it++;
 }
 
+    //traversing using for loop but elements should be assigned valus
 cout<<"printing using for loop "<<endl;
     for(int i = 0; i < 3; i++ ){
         cout<<marks[i]<<endl;
 
     }
-return 0;
+
+    // declaration of 2D vector
+    vector<vector<int>> arr1(5, vector<int>(5, 0));
+
+    // deriving the seze of the array
+    int rows = arr1.size();
+    int col = arr1[0].size();
+
+    return 0;
 }
