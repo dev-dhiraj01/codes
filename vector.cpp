@@ -59,5 +59,9 @@ cout<<"printing using for loop "<<endl;
         }
         cout<<endl;
     }
+    cout<<"size of vector is "<<arr1.size()<<endl;
+    cout<<"size of vector is "<<arr1[0].size()<<endl;
+    
+    
     return 0;
 }
