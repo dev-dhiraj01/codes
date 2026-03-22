@@ -51,5 +51,13 @@ cout<<"printing using for loop "<<endl;
     int rows = arr1.size();
     int col = arr1[0].size();
 
+    cout<<"size of vector is "<<rows<<" "<<col<<endl;
+    cout<<"printing 2D vector "<<endl;
+    for(int i = 0; i < rows; i++){
+        for(int j = 0; j < col; j++){
+            cout<<arr1[i][j]<<" ";
+        }
+        cout<<endl;
+    }
     return 0;
 }
